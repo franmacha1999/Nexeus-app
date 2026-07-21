@@ -1,0 +1,19 @@
+# Entornos virtuales de Python
+venv/
+env/
+.venv/
+
+# Caché y archivos compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de configuración locales y secretos (¡MUY IMPORTANTE!)
+.env
+.env.local
+.env.*
+
+# Base de datos local (si tuvieras SQLite en la PC)
+*.db
+*.sqlite3
