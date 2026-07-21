@@ -11,6 +11,7 @@ from sqlalchemy import text
 from datetime import datetime, date, time, timedelta
 import io
 import csv
+import os 
 
 # --- 2. MÓDULOS INTERNOS DEL PROYECTO ---
 from database import get_db, engine
@@ -36,6 +37,10 @@ origins = [
     "http://127.0.0.1:3000",
     "http://127.0.0.1:5173",
 ]
+
+url_produccion = os.getenv("FRONTEND_URL")
+if url_produccion:
+    origins.append(url_produccion)
 
 app.add_middleware(
     CORSMiddleware,
