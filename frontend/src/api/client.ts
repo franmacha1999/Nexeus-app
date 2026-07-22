@@ -1,8 +1,8 @@
 import axios from 'axios';
 
-// URL hardcodeada temporalmente para producción
-const API_URL = "https://nexeus-app.onrender.com";
-
+// 1. DEFINIMOS LA DIRECCIÓN DEL SERVIDOR
+// Apuntamos directamente a tu backend de FastAPI corriendo en el puerto 8000
+const API_URL = import.meta.env.VITE_API_URL ?? "http://localhost:8000";
 console.log("🔍 [DEBUG NEXEUS] Dirección de la API leída:", API_URL);
 
 // 2. CREAMOS NUESTRO CLIENTE DE CONEXIÓN
