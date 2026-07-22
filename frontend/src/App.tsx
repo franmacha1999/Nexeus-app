@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import LoginPage from './pages/LoginPage';
+import RegisterPage from './pages/RegisterPage';
 import BoardPage from './pages/BoardPage';
 import HoursPage from './pages/HoursPage';
 import ReportsPage from './pages/ReportsPage';
@@ -15,6 +16,9 @@ export default function App() {
         <Route 
           path="/login" 
           element={!isAuthenticated ? <LoginPage /> : <Navigate to="/board" />} 
+        />
+        <Route path="/register"
+          element={<RegisterPage />} 
         />
 
         {/* Rutas Privadas Protegidas */}
