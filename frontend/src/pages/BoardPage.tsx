@@ -282,7 +282,7 @@ export default function BoardPage() {
                 onClick={() => setIsModalOpen(true)}
                 className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold rounded-lg transition shadow-lg shadow-indigo-600/20 flex items-center gap-1.5"
               >
-                <span>+</span> Nueva Initiative
+                <span>+</span> Nueva Iniciativa
               </button>
 
               {/* Ahora el botón abre el modal de confirmación en lugar de cerrar sesión directo */}
