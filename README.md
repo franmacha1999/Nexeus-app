@@ -15,5 +15,5 @@ Plataforma web full-stack diseñada para la gestión interna de proyectos median
 5. **Filtros Avanzados:** Búsqueda en tiempo real por texto y filtrado por niveles de prioridad.
 
 ## 🔗 Enlaces de Producción
-- **Frontend (Vercel):** [Enlace a tu app web]
-- **Backend API Docs (Render / Swagger):** [Enlace a tu /docs]
+- **Frontend (Vercel):** [(https://nexeus-app.vercel.app)]
+- **Backend API Docs (Render / Swagger):** [(https://nexeus-app.onrender.com/docs)]
